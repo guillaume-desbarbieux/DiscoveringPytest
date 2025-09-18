@@ -17,3 +17,6 @@ def list_fizz_buzz(max):
         result.append(i)
 
     return result
+
+if __name__ == "__main__":
+    print(list_fizz_buzz(100))
